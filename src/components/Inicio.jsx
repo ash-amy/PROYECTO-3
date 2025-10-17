@@ -22,7 +22,7 @@ function Inicio() {
       </main>
 
       <section className="introduccion">
-        <div className="bienvenida col-8">
+        <div className="bienvenida">
           <h3>
             ¡¡¡BIENVENIDOS A CODEPLAY!!! <i className="bi bi-robot"></i>
           </h3>
@@ -53,7 +53,7 @@ function Inicio() {
           </p>
         </div>
 
-        <section class="container col-4">
+        <section class="container">
           <img
             class="niños-programación"
             src="https://i.pinimg.com/1200x/39/79/ca/3979cafea548c6745f9eb1bf9808305e.jpg"

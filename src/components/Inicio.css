@@ -65,16 +65,15 @@ body {
 
 .introduccion {
   background-color: #fff0f0;
-  padding: 50px 0;
+  padding: 10px 0;
   display: flex;
 }
 
 .bienvenida {
-  width: 60%;
+  width: 150%;
   border: 3px solid #ff6f61;
   background-color: #f7a29b;
   border-radius: 20px;
-  height: auto;
   padding: 30px;
   margin: 20px auto;
   box-shadow: 9px 8px 21px 2px rgba(255, 111, 97, 0.32);
@@ -95,8 +94,8 @@ body {
 }
 
 .niños-programación {
-  width: 30%;
-  height: auto;
+  width: 90%;
+  height: 525px;
   border-radius: 40px;
   margin: 15px auto;
   box-shadow: 9px 8px 21px 2px rgba(0, 0, 0, 0.27);
