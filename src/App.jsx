@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Inicio from "./components/Inicio";
+import Nosotros from "./components/Nosotros";
 import Footer from "./components/Footer";
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Inicio />} />
-          <Route path="Sobre Nosotros" element={<h1>Sobre Nosotros</h1>} />
+          <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="Juegos y Retos" element={<h1>Juegos y Retos</h1>} />
           <Route path="Contacto" element={<h1>Contacto</h1>} />
           <Route path="Testimonios" element={<h1>Testimonios</h1>} />

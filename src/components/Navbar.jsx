@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 function Navbar() {
   return (
-    <nav className="navbar degradado text-black ">
+    <nav className="navbar degradado text-black p-0">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">
           <img
@@ -19,7 +19,7 @@ function Navbar() {
           </li>
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="Sobre Nosotros">Sobre Nosotros</Link>
+            <Link to="Nosotros">Nosotros</Link>
           </li>
           <li className="hover:text-gray-300">
             {" "}
