@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Inicio from "./components/Inicio";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="Formulario" element={<h1>Formulario</h1>} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </>
   );
 }

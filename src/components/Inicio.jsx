@@ -61,6 +61,59 @@ function Inicio() {
           />
         </section>
       </section>
+
+      <section class="carrusel">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../public/Img 1.png"
+                alt="Niño viendo patrones básicos de programación en una laptop."
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="../public/Img 2.avif"
+                alt="Niños utilizando material didáctico y una tablet para aprender programación."
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="../public/Img 3.png"
+                class="d-block w-100"
+                alt="Niños aprendiendo código de progración con una laptop."
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="../public/Img 4.jpg"
+                alt="Manos infantiles manipulando una tablet con contenido didáctico y llamativo de programación básica"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </>
   );
 }

@@ -9,6 +9,7 @@
   left: 0;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
 }
 
 .degradado {
@@ -19,15 +20,16 @@
   margin: 5px auto;
 }
 
-.options li {
+.options li > a {
   font-size: 16px;
-  color: black;
+  color: black !important; /* asegúrate que sobrescriba bootstrap */
   border-radius: 200px;
   margin: 10px;
   padding: 5px;
+  text-decoration: none;
 }
 
-.options li:hover {
+.options li > a:hover {
   transform: scale(1.05);
   color: black !important; /* asegúrate que sobrescriba bootstrap */
   background-color: rgba(255, 255, 255, 0.2);
@@ -50,4 +52,8 @@
   background-color: #4db6e2;
   border: #4db6e2 2px solid;
   transition: all 0.3s ease;
+}
+
+ul {
+  margin-bottom: 0 !important;
 }

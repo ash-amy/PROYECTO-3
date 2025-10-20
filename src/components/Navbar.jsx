@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 function Navbar() {
   return (
-    <nav className="navbar degradado p-5 text-black ">
+    <nav className="navbar degradado text-black ">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-xl font-bold">
           <img
@@ -12,7 +12,7 @@ function Navbar() {
           />
         </div>
 
-        <ul className="options flex space-x-6">
+        <ul className="options flex space-x-6 p-t-2">
           <li className="hover:text-gray-300">
             {" "}
             <Link to="/">Inicio</Link>
