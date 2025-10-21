@@ -15,11 +15,11 @@ function Navbar() {
         <ul className="options flex space-x-6 p-t-2">
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="/">Inicio</Link>
+            <Link to="/">Página de Inicio</Link>
           </li>
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="/Nosotros">Nosotros</Link>
+            <Link to="/Nosotros">Sobre Nosotros</Link>
           </li>
           <li className="hover:text-gray-300">
             {" "}
@@ -27,7 +27,7 @@ function Navbar() {
           </li>
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="Contacto">Contacto</Link>{" "}
+            <Link to="/Contacto">Contáctanos</Link>{" "}
           </li>
           <li className="hover:text-gray-300">
             {" "}
