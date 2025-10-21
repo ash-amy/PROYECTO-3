@@ -25,30 +25,43 @@ function Nosotros() {
       </main>
 
       <div className="Contenedor">
-        <div className="Tarjetas">
+        <div className="Tarjetas" id="tarjeta1">
           <h4>Ashley Perales</h4>
           <img src="../public/Avatar.png" alt="Foto de integrante" />
-          <p>Apasionada por la tecnología y la innovación educativa. Le encanta trabajar en equipo y liderar proyectos que inspiren a otros.</p>
+          <p>
+            Apasionada por la tecnología y la innovación educativa. Le encanta
+            trabajar en equipo y liderar proyectos que inspiren a otros.
+          </p>
         </div>
 
-        <div className="Tarjetas">
+        <div className="Tarjetas" id="tarjeta2">
           <h4>Hannah ______</h4>
           <img src="../public/Avatar.png" alt="Foto de integrante" />
-          <p>Le apasiona crear interfaces atractivas y funcionales que conecten con las personas y hagan que aprender sea divertido.</p>
+          <p>
+            Le apasiona crear interfaces atractivas y funcionales que conecten
+            con las personas y hagan que aprender sea divertido.
+          </p>
         </div>
 
-        <div  className="Tarjetas">
+        <div className="Tarjetas" id="tarjeta3">
           <h4>Melany ______</h4>
           <img src="../public/Avatar.png" alt="Foto de integrante" />
-          <p>Disfruta resolviendo problemas y creando soluciones tecnológicas que faciliten el aprendizaje y la comunicación.</p>
+          <p>
+            Disfruta resolviendo problemas y creando soluciones tecnológicas que
+            faciliten el aprendizaje y la comunicación.
+          </p>
         </div>
+      </div>
+
+      <div className="mas-info">
+        <h2>Conoce un poco más sobre nuestros objetivos como empresa</h2>
       </div>
 
       <section className="Misión-Visión-Valores">
         <img src="../public/Logo.png" alt="Logo de ColdPlay" />
 
         <div>
-          <div className="Misión">
+          <div className="contenedor" id="Misión">
             <h3>📌Mision</h3>
             <p className="fw-semibold">
               Brindar a los niños un espacio seguro, divertido y creativo donde
@@ -58,7 +71,7 @@ function Nosotros() {
             </p>
           </div>
 
-          <div className="Visión">
+          <div className="contenedor" id="Visión">
             <h3>👀Vision</h3>
             <p className="fw-semibold">
               Ser la plataforma educativa lider en el mundo hispanohablante que
@@ -68,7 +81,7 @@ function Nosotros() {
             </p>
           </div>
 
-          <div className="Valores">
+          <div className="contenedor" id="Valores">
             <h3>✨Valores</h3>
             <ul className="fw-semibold">
               <li>Divertirse</li>
