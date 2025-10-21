@@ -4,9 +4,9 @@ import datos from "../data/Integrantes.json";
 function Nosotros() {
   return (
     <>
-      <main>
+      <main className="Presentación">
         <h1>SOBRE NOSOTROS</h1>
-        <div>
+        <div className="descripción">
           <p>
             Somos un grupo de estudiantes apasionadas por la programación de
             software y el desarrollo web. Creemos que la tecnología no solo
@@ -24,20 +24,23 @@ function Nosotros() {
         </div>
       </main>
 
-      <div className="Integrantes">
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {datos.equipo.map((integrantes) => (
-            <div key={integrantes.id} className="p-4">
-              <h3>{integrantes.nombre_completo}</h3>
-              <img
-                className="height-48 w-full object-cover mb-4"
-                src={`./${integrantes.foto}`}
-                alt={integrantes.nombre_completo}
-              />
-              <p>{integrantes.rol}</p>
-              <p>{integrantes.descripcion}</p>
-            </div>
-          ))}
+      <div className="Contenedor">
+        <div className="Tarjetas">
+          <h4>Ashley Perales</h4>
+          <img src="../public/Avatar.png" alt="Foto de integrante" />
+          <p>Apasionada por la tecnología y la innovación educativa. Le encanta trabajar en equipo y liderar proyectos que inspiren a otros.</p>
+        </div>
+
+        <div className="Tarjetas">
+          <h4>Hannah ______</h4>
+          <img src="../public/Avatar.png" alt="Foto de integrante" />
+          <p>Le apasiona crear interfaces atractivas y funcionales que conecten con las personas y hagan que aprender sea divertido.</p>
+        </div>
+
+        <div  className="Tarjetas">
+          <h4>Melany ______</h4>
+          <img src="../public/Avatar.png" alt="Foto de integrante" />
+          <p>Disfruta resolviendo problemas y creando soluciones tecnológicas que faciliten el aprendizaje y la comunicación.</p>
         </div>
       </div>
 
