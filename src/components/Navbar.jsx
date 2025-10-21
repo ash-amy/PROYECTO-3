@@ -19,11 +19,11 @@ function Navbar() {
           </li>
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="Nosotros">Nosotros</Link>
+            <Link to="/Nosotros">Nosotros</Link>
           </li>
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="Juegos y Retos">Juegos y Retos</Link>
+            <Link to="/Juegos">Juegos y Retos</Link>
           </li>
           <li className="hover:text-gray-300">
             {" "}
