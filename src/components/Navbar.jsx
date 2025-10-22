@@ -31,7 +31,7 @@ function Navbar() {
           </li>
           <li className="hover:text-gray-300">
             {" "}
-            <Link to="Testimonios">Testimonios</Link>
+            <Link to="/Testimonios">Testimonios</Link>
           </li>
         </ul>
 

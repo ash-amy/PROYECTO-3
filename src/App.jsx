@@ -6,6 +6,7 @@ import Inicio from "./components/Inicio";
 import Nosotros from "./components/Nosotros";
 import Juegos from "./components/Juegos";
 import Contacto from "./components/Contacto";
+import Testimonios from "./components/Testimonios";
 import Footer from "./components/Footer";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Juegos" element={<Juegos />} />
           <Route path="/Contacto" element={<Contacto />} />
-          <Route path="/Testimonios" element={<h1>Testimonios</h1>} />
+          <Route path="/Testimonios" element={<Testimonios />} />
           <Route path="/Formulario" element={<h1>Formulario</h1>} />
         </Routes>
       </BrowserRouter>
